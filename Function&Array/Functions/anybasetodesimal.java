@@ -7,17 +7,16 @@ public class Main
     int n = sc.nextInt ();
     int b = sc.nextInt ();
     int dn=getValueInBase(n, b);
-    System.out.println(dn);
-   
+   System.out.println(dn);
   }
   public static int getValueInBase(int n, int b){
     int dn=0;
-    int tp=1;
+    int bp=1;
     while(n>0){
-        int rem=n%b;
-        n=n/b;
-        dn=dn+rem*tp;
-        tp=tp*10;
+        int rem=n%10;
+        n=n/10;
+        dn=dn+rem*bp;
+        bp=bp*b;
     }
     return dn;
   }
