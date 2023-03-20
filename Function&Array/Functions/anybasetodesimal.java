@@ -6,10 +6,10 @@ public class Main
     Scanner sc = new Scanner (System.in);
     int n = sc.nextInt ();
     int b = sc.nextInt ();
-    int dn=getValueInBase(n, b);
+    int dn=getValueInDecimal(n, b);
    System.out.println(dn);
   }
-  public static int getValueInBase(int n, int b){
+  public static int getValueInDecimal(int n, int b){
     int dn=0;
     int bp=1;
     while(n>0){
