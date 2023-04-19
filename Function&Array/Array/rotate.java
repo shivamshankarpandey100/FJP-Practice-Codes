@@ -15,7 +15,7 @@ public class Main{
     while(low<=hi){
         int temp =arr[low];
         arr[low] =arr[hi];
-        arr[hi]=temp;
+        arr[hi]=temp; 
 
         low++;
         hi--;
