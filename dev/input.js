@@ -1,4 +1,5 @@
 let args=process.argv;
+//input 
 // console.log(args);
 
 //for taking input in console line write node file_name.js and then pass the input
