@@ -1,2 +1,2 @@
-//output
+//onlyn output
 console.log("hello world");
