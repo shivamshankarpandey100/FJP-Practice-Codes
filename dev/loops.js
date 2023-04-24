@@ -1,3 +1,4 @@
+//loop
 let clargs=process.argv;
 let nas=clargs[2];
 let n=parseInt(nas);
