@@ -26,6 +26,6 @@ public static void main(String[]args){
                 return;
            }
         }
-        System.out.println("not found");
+        System.out.println(" not found ");
     }
 }
