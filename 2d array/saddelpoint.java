@@ -19,22 +19,22 @@ public class Main{
             for(int j=0;j<arr[0].length;j++){
                 if(arr[i][j]<min){
                     min=arr[i][j];
-                    pst=j;
+                    psj=j;
                 }
             }
 
 
             //confirm it is maximum in column
             boolean isSaddle=true;
-            for(int i=0;i<arr.length;i++){
+            for(i=0;i<arr.length;i++){
                 if(arr[i][psj]>min){
                     isSaddle=false;
-                    brake;
+                    break;
                 }
             }
             if(isSaddle==true){
-                System.out.println(min);
-                return
+                System.out.println("Saddle poin is :" +min);
+                return;
             }
         
         }
