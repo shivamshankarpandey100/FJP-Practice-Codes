@@ -16,6 +16,9 @@ public class Main {
     }
 
     public static void displayArr(int[] arr, int i){
+        if(i==arr.length){
+            return;
+        }
         System.out.println(arr[i]);
         displayArr(arr,i+1);
     }
