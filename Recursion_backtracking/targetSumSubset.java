@@ -11,7 +11,7 @@ public class Main{
        int tar=sc.nextInt();
        printTargetSumSubsets(arr,0,"",0,tar);
     }
-    public static void printTargetSumSubsets(int [][] arr,int idx,String set, int sos, int tar){
+    public static void printTargetSumSubsets(int [] arr,int idx,String set, int sos, int tar){
       
         if(idx==arr.length){
             if(sos==tar){
