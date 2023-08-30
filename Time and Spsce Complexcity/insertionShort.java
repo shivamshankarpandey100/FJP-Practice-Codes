@@ -1,5 +1,5 @@
 import java.util.*;
-public class main{
+public class Main{
     public static void main(String[]args){
         Scanner sc=new Scanner(System.in);
         int n=sc.nextInt();
@@ -9,7 +9,7 @@ public class main{
        } 
 
        for(int i=1;i<=arr.length-1;i++){
-        for(j=i-1;j>=0;j--){
+        for(int j=i-1;j>=0;j--){
              if(arr[j]>arr[j+1]){
                 int temp=arr[j];
                 arr[j]=arr[j+1];
@@ -23,6 +23,6 @@ public class main{
        for(int val: arr){
         System.out.print(val+" ");
        }
-       System.out.println(val);
+       System.out.println(".");
     }
 }
