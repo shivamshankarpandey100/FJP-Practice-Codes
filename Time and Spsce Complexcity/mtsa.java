@@ -27,12 +27,14 @@ public class Main {
             j++;
         }
         
-    }else if(j==b.length){
+    }
+    else if(j==b.length){
          while(i<a.length){
         ans[k]=a[i];
             k++;
             i++;
         }
+    }
     }
     
     return ans;
