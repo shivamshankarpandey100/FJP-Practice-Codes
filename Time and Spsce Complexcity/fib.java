@@ -6,11 +6,7 @@ public class Main{
         int fn=fib(n);
         System.out.println(fibn);
     }
-}
-
-
-
-public static int fib(n){
+    public static int fib(n){
     if(n==0 || n==1){
         return n;
     }
@@ -19,3 +15,7 @@ public static int fib(n){
     int fibn =fibnm1+fibnm2;
     return fibn;
 } 
+}
+
+
+
