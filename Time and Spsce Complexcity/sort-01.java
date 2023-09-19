@@ -9,7 +9,7 @@ public class Main {
     int j=0;
     while(i<arr.length){
         if(arr[i]==1){
-            i++
+            i++;
         }else{
             swap(arr,i,j);
             i++;
