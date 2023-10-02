@@ -14,7 +14,8 @@ i=i+30;
 console.log(i);
 
 
-let j=parseInt(args[2],10);//parseInt for to convert string to number
+let j=parseInt(args[2],10);
+//parseInt for to convert string to number
 console.log(j);
 console.log(typeof j);
 j=j+30;
