@@ -9,12 +9,13 @@ let args=process.argv;
 
 let i=args[2];
 console.log(i);
-console.log(typeof i);//console or command always take the value in string form
+console.log(typeof i);//console or command always //take the value in string form
 i=i+30;
 console.log(i);
 
 
-let j=parseInt(args[2],10);//parseInt for to convert string to number
+let j=parseInt(args[2],10);
+//parseInt for to convert string to number
 console.log(j);
 console.log(typeof j);
 j=j+30;
