@@ -21,7 +21,7 @@ public class Main {
         }
 
         //fill the ans
-        for(int i=arr.length-1;i>=0;i++){
+        for(int i=arr.length-1;i>=0;i--){
             int val=arr[i];
             int pos=farr[val-min];
             ans[pos-1]=val;

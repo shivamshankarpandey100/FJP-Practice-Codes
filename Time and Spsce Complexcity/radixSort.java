@@ -6,7 +6,7 @@ public class Main {
   public static void radixSort(int[] arr) {
     // write code here    
     int max=arr[0];
-    for(int i=1;i<arr.lemgth;i++){
+    for(int i=1;i<arr.length;i++){
       if(arr[i]>max){
         max=arr[i];
       }
@@ -38,7 +38,7 @@ public class Main {
         }
 
         //fill the ans
-        for(int i=arr.length-1;i>=0;i++){
+        for(int i=arr.length-1;i>=0;i--){
             int val=arr[i]/exp%10;
             int pos=farr[val];
             ans[pos-1]=arr[i];
@@ -69,5 +69,6 @@ public class Main {
     radixSort(arr);
     print(arr);
   }
+  
 
 }
