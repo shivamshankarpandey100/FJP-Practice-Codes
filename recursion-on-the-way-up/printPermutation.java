@@ -1,6 +1,6 @@
 import java.util.*;
 import java.io.*;
-public class main{
+public class Main{
     public static void main(String[]args){
         Scanner sc=new Scanner(System.in);
         String str=sc.nextLine();
@@ -23,8 +23,8 @@ public class main{
             String posti=str.substring(i+1);
             String newstr=prei+posti;
 
-            str=prei+posti;
-            printPermutations(newstr,asf+ch)
+            //str=prei+posti;
+            printPermutations(newstr,asf+ch);
         }
 
     }
