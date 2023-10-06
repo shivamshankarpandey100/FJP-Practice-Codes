@@ -17,12 +17,12 @@ public class Main {
   public static void countSort(String[] arr,int div, int mod, int range) {
     // write your code here
       int [] farr=new int[range];
-        int [] ans=new int[arr.length];
+        String [] ans=new String[arr.length];
 
 
         //collecting the frequencies
         for(int i=0;i<arr.length;i++){
-            int val=arr[i]/div % mod;
+            int val=integer.parseInt(arr[i])/div % mod;
             farr[val]++;
         }
         //convert the freq to psa
@@ -32,7 +32,7 @@ public class Main {
 
         //fill the ans
         for(int i=arr.length-1;i>=0;i--){
-            int val=arr[i]/div%mod;
+            int val=integer.parseInt(arr[i])/div%mod;
             int pos=farr[val];
             ans[pos-1]=arr[i];
             farr[val]--;
