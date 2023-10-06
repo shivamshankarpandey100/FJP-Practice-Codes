@@ -18,10 +18,10 @@ public class main{
 
 
         for(int i=0;i<str.length();i++){
-            chsr ch=str.charAt(i);
+            char ch=str.charAt(i);
             String prei=str.substring(0,i);
             String posti=str.substring(i+1);
-            Stringnewstr=prei+posti;
+            String newstr=prei+posti;
 
             str=prei+posti;
             printPermutations(newstr,asf+ch)
