@@ -21,7 +21,7 @@ public class Main{
             System.out.println(asf);
             return;
         }
-        if(sr<0 || sr>=maze.length || sc<0 || sc>=maze[0].length || maze[sr][sc]==1){
+        if(sr<0 || sr==maze.length || sc<0 || sc==maze[0].length || maze[sr][sc]==1){
             return;
         }
 
