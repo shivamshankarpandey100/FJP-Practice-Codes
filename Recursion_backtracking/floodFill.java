@@ -26,11 +26,11 @@ public class Main {
       System.out.println(asf);
       return;
     }
-
+    maze[sr][sc]=1;
     floodfill(maze, sr - 1, sc, asf + "u"); //3
     floodfill(maze, sr, sc - 1, asf + "l"); //4
     floodfill(maze, sr + 1, sc, asf + "d"); //5
     floodfill(maze, sr, sc + 1, asf + "r"); //6
-
+    maze[sr][sc]=0;
   }
 }
