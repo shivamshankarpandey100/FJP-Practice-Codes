@@ -17,7 +17,7 @@ public class Main{
     //asf=>answer so far
     public static void floodfill(int[][] maze,int sr,int sc ,String asf){
 
-        if(sr==maze.length-1 && sc=maze[0].length-1{
+        if(sr==maze.length-1 && sc=maze[0].length-1){
             System.out.println(asf);
             return;
         }
