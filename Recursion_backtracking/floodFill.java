@@ -22,7 +22,7 @@ public class Main {
     if (sr < 0 || sc < 0 || sr == maze.length || sc == maze[0].length || maze[sr][sc] == 1) {
       return;         //1
     }
-    if (sr == maze.length - 1 && sc == maze[0].length - 1) { //2
+   else if (sr == maze.length - 1 && sc == maze[0].length - 1) { //2
       System.out.println(asf);
       return;
     }
