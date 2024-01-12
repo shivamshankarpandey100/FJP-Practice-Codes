@@ -19,6 +19,13 @@ private static class Linklist{
         Node node=new Node();
         node.data=val;
         node.next=null;
+        if (size==0){
+          head=tail=node;
+        }
+        else{
+          tail.next=node;
+          tail=node;
+        }
         tail.next=node;
         tail=node;
         size++;
