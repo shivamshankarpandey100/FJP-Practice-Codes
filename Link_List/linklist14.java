@@ -338,7 +338,7 @@ public class Main14 {
             for(int i=0;i<sz;i++){
             int val=this.getFirst();
             this.removeFirst();
-            curr.addFirst();
+            curr.addLast(val);
         }
         }else{
             for(int i=0;i<k;i++){
