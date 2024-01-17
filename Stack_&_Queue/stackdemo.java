@@ -1,6 +1,6 @@
 import java.util.*;
 public class Main{
-    public Ststic void main(String[] args){
+    public Static void main(String[] args){
         Stack<Intiger> stack=new Stack<>();
         stack.push(10);
         stack.push(20);
