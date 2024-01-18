@@ -22,6 +22,24 @@ public static void levelOrder(Node root){
     }
     System.out.println(".");
 }
+public static void levelOrderLinewise(Node root){
+    Queue<Node> queue= new ArrayDeque<>();
+    Queue<Node> equeue= new ArrayDeque<>();
+
+    queue.add(root);
+    while(queue.size()>0){
+        Node temp=queue.remove();
+        System.out.print(temp.data+" ");
+        for(Node child:temp.children){
+            equeue.add(child);
+        }
+        if(queue.size()==0){
+            queue=equeue;
+            equeue=new ArrayDeque<>();
+            System.out.println(".");
+        }
+    }
+}
 
 
 public static void main(String[]args){
