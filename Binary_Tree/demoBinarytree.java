@@ -10,7 +10,7 @@ public class Main{
 
     }
 
-    public static class pair(){
+    public static class Pair{
         Node node;
         int state;
 
@@ -30,7 +30,7 @@ public class Main{
 
             if(peekp.state==1){
                 if(arr[idx]!=null){
-                    Node lc=new node();
+                    Node lc=new Node();
                     lc.data=arr[idx];
                     peekp.node.left=lc;
                     
@@ -44,7 +44,7 @@ public class Main{
             }
             else if(peekp.state==2){
                 if(arr[idx]!=null){
-                    Node rc=new node();
+                    Node rc=new Node();
                     rc.data=arr[idx];
                     peekp.node.right=rc;
                     
