@@ -1,6 +1,7 @@
 import java.io.*;
 import java.util.*;
 //129
+// k level par sab nodes print karna hai
 public class Main {
   public static class Node {
     int data;
