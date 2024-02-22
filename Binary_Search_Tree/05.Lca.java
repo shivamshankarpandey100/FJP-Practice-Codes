@@ -84,7 +84,7 @@ public class Main146 {
       return lca(node.right, d1, d2);
     }else if(node.data > d1 && node.data > d2){
       return lca(node.left, d1, d2);
-    }else{
+    }else{//jaha node ka data common nahi rahe ga wahi ka node LCA(Lowest Common Ansester)
       return node.data;
     }
   }
