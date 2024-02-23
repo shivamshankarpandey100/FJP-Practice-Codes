@@ -21,7 +21,7 @@ public class Main{
             }
         }
         char mfch=ch.charAt(0);
-        for(int i=0;i<str.length();i++){
+        for(int i=1;i<str.length();i++){
             char ch=str.charAt(i)
             if(fmap.get(ch)>fmap.get(mfch)){
                 mfch=ch;
