@@ -23,7 +23,6 @@ public class Main156 {
         p.di = 0;
         p.data = lists.get(li).get(0);
         pq.add(p);
-        
       }
 
       while(pq.size() > 0){
