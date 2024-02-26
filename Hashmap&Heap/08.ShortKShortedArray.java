@@ -31,6 +31,7 @@ public class MAin157 {
          System.out.println(val);
 
          pq.remove();
+         
       }
    }
 
